@@ -1,0 +1,18 @@
+.bulletPoint {
+  font-size: 18px;
+  margin: 8px 0;
+  display: block;
+}
+
+.bulletPoint::before,
+.dashPoint::before {
+  content: '•';
+  font-size: 18px;
+  line-height: 18px;
+  margin-right: 8px;
+}
+
+.dashPoint::before {
+  margin-left: 12px;
+  content: '–';
+}

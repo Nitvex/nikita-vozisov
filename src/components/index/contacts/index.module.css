@@ -1,0 +1,40 @@
+.contactsWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactsTitle {
+  font-size: 30px;
+  color: black;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.networkWrapper {
+  display: flex;
+  align-items: center;
+  margin: 4px 0;
+}
+
+.logo {
+  margin-right: 8px;
+  width: 32px;
+  height: 32px;
+}
+
+@media only screen and (max-width: 500px) {
+  .contactsWrapper {
+    display: initial;
+  }
+
+  .networkWrapper {
+    display: inline-flex;
+    vertical-align: middle;
+    width: 50%;
+    height: 32px;
+  }
+
+  .networkWrapper:nth-child(2n + 1) {
+    justify-content: flex-end;
+  }
+}

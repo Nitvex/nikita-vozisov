@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Golos_UI_Regular';
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/golos-ui-regular/Golos_UI_Regular.eot"),
+  url("../fonts/golos-ui-regular/Golos_UI_Regular.woff") format("woff"),
+  url("../fonts/golos-ui-regular/Golos_UI_Regular.woff2") format("woff2"),
+  url("../fonts/golos-ui-regular/Golos_UI_Regular.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Golos_UI_Bold';
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts//golos-ui-bold/Golos_UI_Bold.eot"),
+  url("../fonts//golos-ui-bold/Golos_UI_Bold.woff") format("woff"),
+  url("../fonts//golos-ui-bold/Golos_UI_Bold.woff2") format("woff2"),
+  url("../fonts//golos-ui-bold/Golos_UI_Bold.ttf") format("truetype");
+  font-display: swap;
+}
+
+html, body {
+  font-family: Golos_UI_Regular, serif;
+  margin: 0;
+}
+
+h1 {
+  font-family: Golos_UI_Bold, serif;
+  font-size: 40px;
+}
